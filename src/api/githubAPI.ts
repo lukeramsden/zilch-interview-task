@@ -47,8 +47,9 @@ export interface IssuesResult {
 export const createIssuesUrl = (
   org: string,
   repo: string,
-  page = 1
-) => `https://api.github.com/repos/${org}/${repo}/issues?per_page=25&page=${page}`;
+  page = 1,
+  perPage = 25
+) => `https://api.github.com/repos/${org}/${repo}/issues?per_page=${perPage}&page=${page}`;
 
 export const createRepoDetailsUrl = (org: string, repo: string) => `https://api.github.com/repos/${org}/${repo}`;
 
