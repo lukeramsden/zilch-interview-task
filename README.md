@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Please see [INTERVIEW_TASK.md](./INTERVIEW_TASK.md) for a description of the task.
+Please see [INTERVIEW_TASK.md](./INTERVIEW_TASK.MD) for a description of the task.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
