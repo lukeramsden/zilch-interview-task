@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { Provider } from 'react-redux';
+import { Alert } from 'reactstrap';
 import { store } from './app/root.store';
 
 function App() {
@@ -9,22 +8,36 @@ function App() {
     <Provider store={store}>
 
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div>
+          {/* These are Bootstrap components, provided to us by the reactstrap package */}
+          {/* Go here to view all the components: https://reactstrap.github.io/components/alerts/ */}
+          <Alert color="primary">
+            This is a primary alert — check it out!
+          </Alert>
+          <Alert color="secondary">
+            This is a secondary alert — check it out!
+          </Alert>
+          <Alert color="success">
+            This is a success alert — check it out!
+          </Alert>
+          <Alert color="danger">
+            This is a danger alert — check it out!
+          </Alert>
+          <Alert color="warning">
+            This is a warning alert — check it out!
+          </Alert>
+          <Alert color="info">
+            This is a info alert — check it out!
+          </Alert>
+          <Alert color="light">
+            This is a light alert — check it out!
+          </Alert>
+          <Alert color="dark">
+            This is a dark alert — check it out!
+          </Alert>
+        </div>
       </div>
-      
+
     </Provider>
   );
 }
