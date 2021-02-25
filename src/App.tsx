@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { Alert } from 'reactstrap';
-import { store } from './app/root.store';
+import { store } from './redux/root.store';
 
 function App() {
   return (
