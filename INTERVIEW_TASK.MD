@@ -20,6 +20,8 @@ Navigating to view an issue can then show the comments on that issue, as well as
 
 Your solution must leverage Redux for state management, as well as Sagas for asynchronous fetching.
 
+`@reduxjs/toolkit` is included and imported by default. This toolkit is useful, but it is not mandatory that you use it. If you'd rather write reducers and actions yourself, without the toolkit, feel free - as long as they are still well tested, and typed.
+
 You must also write tests - test coverage of the whole application does not matter, please focus on having at least one test for each different part, such as for UI, reducers, actions, selectors, sagas, etc.
 
 Do not worry about styling or nice UI - the "reactstrap" library is included, which providers Bootstrap styling as React components, which will provide you with ample functionality to create the barebones UI necessary.
